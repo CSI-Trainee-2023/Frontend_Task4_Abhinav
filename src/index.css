@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:  #F3F6FF;
+}
+.navbar{
+    background-color: #F3F6FF; 
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    font-weight: bold;
+    text-decoration: none;
+    }
+.navbar-menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-menu li{
+    display: inline-block;
+}
+.navbar-menu li a{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.upperheader {
+    display: flex;
+    justify-content: space-between;
+}
+.rightupper{
+    display: flex;
+}
+.searchbar{
+    border: 2px solid #0a032a;
+    border-radius: 25px;
+    padding: 0.8rem 10rem;
+}
+
+.search{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.searchbutton{
+    background-color: #4C8787;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.ship{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.slider{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+    background-color: #F9D370;
+}
+.imagecontainer{
+    display: flex;
+}
+.pre-button , .next-button {
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9D370;
+}
+.pre-button{
+    left: 0;
+}
+.next-button{
+    right: 0;
+}
+.next-button p , .pre-button p{
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.232);
+    color: #4C8787;
+}
