@@ -2,6 +2,7 @@ import React from 'react'
 import '../index.css'
 import logoimage from '../assets/logo.png';
 import profileimg from '../assets/profileicon.jpg'
+import addtocart from '../assets/addtocart.png'
 function Logo(){
     return(
        <div className="upperheader">
@@ -13,7 +14,7 @@ function Logo(){
                  <img src={profileimg} style={{ width: 50, height: 50 }} />
            </div>
            <div className="addtocart">
-              ADD TO CART
+                <img src={addtocart}/>
            </div>
            </div>
            </div>

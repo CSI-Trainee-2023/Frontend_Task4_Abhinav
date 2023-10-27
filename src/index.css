@@ -10,11 +10,14 @@ body{
     border-top:2px solid black;
     border-bottom:2px solid black;
     font-weight: bold;
+    font-size: 22px;
     text-decoration: none;
     }
 .navbar-menu{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 12px 0px;
 }
 .navbar-menu li{
     display: inline-block;
@@ -22,14 +25,18 @@ body{
 .navbar-menu li a{
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .upperheader {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .rightupper{
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 .searchbar{
     border: 2px solid #0a032a;
@@ -37,9 +44,13 @@ body{
     padding: 0.8rem 10rem;
 }
 
+.addtocart{
+    margin-top: 0.6rem;
+}
 .search{
     margin-top: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .searchbutton{
@@ -53,11 +64,42 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 10px;
+}
+#inputsearch{
+    width: 90%;
+    border: none;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: transparent;
+}
+#inputsearch:focus{
+    outline: none;
+    
 }
 .ship{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px;
+}
+.shippinglogo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    align-items: center;
+  
+}
+.Refund{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem;
+}
+.support{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
 }
 .slider{
     position: relative;
@@ -67,6 +109,7 @@ body{
 }
 .imagecontainer{
     display: flex;
+    flex-wrap: wrap;
 }
 .pre-button , .next-button {
     border: none;
@@ -75,6 +118,7 @@ body{
     position: absolute;
     top: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: #F9D370;
@@ -90,4 +134,34 @@ body{
     border-radius: 10px;
     background-color: rgba(128, 128, 128, 0.232);
     color: #4C8787;
+}
+.Info1{
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+.part1a ,.part2a {
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftb{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+font-weight: bold;
+font-size: 25px;
+}
+.rightb{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.part2a,.righta,.rightb{
+    margin-top: 2px;
 }

@@ -5,7 +5,7 @@ function Search(){
     return(
         <div className="search">
             <div className="searchbar">
-             Search something..
+             <input type='text' id='inputsearch'/>
             </div>
             <div className="searchkey">
                 <button className='searchbutton'>Search</button>
