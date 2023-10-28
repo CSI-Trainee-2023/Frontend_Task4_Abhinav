@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@itseasy21/react-elastic-carousel": "^0.12.3",
+    "hover": "^3.0.0-alpha.6",
+    "mdb-react-ui-kit": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-slideshow-image": "^4.3.0"
