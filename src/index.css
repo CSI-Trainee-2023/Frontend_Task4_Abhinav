@@ -39,6 +39,11 @@ body{
     border: 2px solid #0a032a;
     border-radius: 25px;
     padding: 0.8rem 10rem;
+    display: flex;
+}
+.searchtext{
+    display: flex;
+    justify-content: space-between;
 }
 
 .addtocart{
@@ -299,6 +304,11 @@ font-size: 25px;
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ratedname{
+    font-size: 1.5rem;
+    font-weight: 700;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .subsribetext {

@@ -1,5 +1,6 @@
 import React from "react";
 import '../index.css'
+import Topratedfunc from "./topratedfunc";
 import rated1 from '../assets/Rectangle 26.png'
 import rated2 from '../assets/Rectangle 27.png'
 import rated3 from '../assets/Rectangle 28.png'
@@ -15,121 +16,20 @@ function Toprating() {
         <div className="toprated">
             <div className="ratedtext1">Top Rated</div>
              <div className="ratedupper">
-                <div className="component">
-                <div className="ratedimage">
-                    <img src={rated1}/>
-                </div>
-                <div className="ratedtext">
-                    <div className="ratedname">Tray with<br></br>Foot</div>
-                    <div className="ratedrating">
-                        <img src={starsr}/>
-                    </div>
-                    <div className="ratedprice">30$</div>
-                </div>
-                </div>
-                <div className="component">
-                <div className="ratedimage">
-                    <img src={rated2}/>
-                </div>
-                <div className="ratedtext">
-                    <div className="ratedname">Twill Seat<br></br>Cushion</div>
-                    <div className="ratedrating">
-                        <img src={starsr}/>
-                    </div>
-                    <div className="ratedprice">30$</div>
-                </div>
-                </div>
-                <div className="component">
-                <div className="ratedimage">
-                    <img src={rated3}/>
-                </div>
-                <div className="ratedtext">
-                    <div className="ratedname">Fluted<br></br>Beverage<br></br>Glasses</div>
-                    <div className="ratedrating">
-                        <img src={starsr}/>
-                    </div>
-                    <div className="ratedprice">30$</div>
-                </div>
-                </div>
+                <Topratedfunc img={rated1} text="Tray With Foot"/>
+                <Topratedfunc img={rated2} text="Twill Seat Cusion"/>
+                <Topratedfunc img={rated3} text="Fluted Beverage Glass"/>
              </div>
              <div className="ratedupper">
-                <div className="component">
-                <div className="ratedimage">
-                    <img src={rated4}/>
-                </div>
-                <div className="ratedtext">
-                    <div className="ratedname">Ceramic<br></br> Egg Cup</div>
-                    <div className="ratedrating">
-                        <img src={starsr}/>
-                    </div>
-                    <div className="ratedprice">30$</div>
-                </div>
-                </div>
-                <div className="component">
-                <div className="ratedimage">
-                    <img src={rated5}/>
-                </div>
-                <div className="ratedtext">
-                    <div className="ratedname">4-pack<br></br>Ceramic<br></br>Cups</div>
-                    <div className="ratedrating">
-                        <img src={starsr}/>
-                    </div>
-                    <div className="ratedprice">30$</div>
-                </div>
-                </div>
-                <div className="component">
-                <div className="ratedimage">
-                    <img src={rated6}/>
-                </div>
-                <div className="ratedtext">
-                    <div className="ratedname">2-pack<br></br>Linen<br></br>Napkins</div>
-                    <div className="ratedrating">
-                        <img src={starsr}/>
-                    </div>
-                    <div className="ratedprice">30$</div>
-                </div>
-                </div>
+                <Topratedfunc img={rated4} text="Ceramic Egg Cup"/>
+                <Topratedfunc img={rated5} text="4-pack Ceramic cups"/>
+                <Topratedfunc img={rated6} text="2-pack Linen Napkins "/>
              </div>
              <div className="ratedupper">
-                <div className="component">
-                <div className="ratedimage">
-                    <img src={rated7}/>
-                </div>
-                <div className="ratedtext">
-                    <div className="ratedname">Glazed<br></br>Stoneware<br></br>Plate</div>
-                    <div className="ratedrating">
-                        <img src={starsr}/>
-                    </div>
-                    <div className="ratedprice">30$</div>
-                </div>
-                </div>
-                <div className="component">
-                <div className="ratedimage">
-                    <img src={rated8}/>
-                </div>
-                <div className="ratedtext">
-                    <div className="ratedname">Small<br></br>Bamboo<br></br>Box</div>
-                    <div className="ratedrating">
-                        <img src={starsr}/>
-                    </div>
-                    <div className="ratedprice">30$</div>
-                </div>
-                </div>
-                <div className="component">
-                <div className="ratedimage">
-                    <img src={rated9}/>
-                </div>
-                <div className="ratedtext">
-                    <div className="ratedname">Metal<br></br>Cutlery<br></br>Plate</div>
-                    <div className="ratedrating">
-                        <img src={starsr}/>
-                    </div>
-                    <div className="ratedprice">30$</div>
-                </div>
-                </div>
+                <Topratedfunc img={rated7} text="Glazed Stoneware Plate"/>
+                <Topratedfunc img={rated8} text="Small Bamboo Box"/>
+                <Topratedfunc img={rated9} text="Metal Cutlery Basket"/>
              </div>
-
-        
         </div>
     )
 }
