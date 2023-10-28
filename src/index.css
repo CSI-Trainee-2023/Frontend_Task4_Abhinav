@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
     background-color:  #F3F6FF;
@@ -233,7 +234,7 @@ font-size: 25px;
   }
   .searchbutton1{
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 25%;
     background-color: #4C8787;
     border: none;
@@ -261,3 +262,13 @@ font-size: 25px;
   .item8{
     margin-top: 1.5rem;
   }
+.productname{
+    font-size: 1.125rem;
+    color: #323334;
+    font-weight: 700;
+}
+.priceproduct{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #323334;
+}
