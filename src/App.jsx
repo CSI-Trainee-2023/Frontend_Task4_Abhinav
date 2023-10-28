@@ -9,6 +9,7 @@ import Item from './Components/8item'
 import Footer from './Components/footer'
 import FullSize from './Components/fullsize'
 import Toprating from './Components/toprated';
+import Email from './Components/emailus';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
    <Item/>
    <FullSize/>
    <Toprating/>
+   <Email/>
    <Footer/>
   </>
   )
