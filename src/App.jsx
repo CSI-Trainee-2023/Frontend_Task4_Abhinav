@@ -5,6 +5,7 @@ import Search from './Components/Search'
 import Shipping from './Components/shipping';
 import Slider from './Components/slider'
 import Info1 from './Components/Info1'
+import Item from './Components/8item';
 import Footer from './Components/footer'
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
    <Shipping/>
    <Slider/>
    <Info1/>
+   <Item/>
    <Footer/>
   </>
   )
