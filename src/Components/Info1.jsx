@@ -7,7 +7,7 @@ function Info1() {
          <div className="Info1">
             <div className="part1a">
                 <div className="lefta">
-                    <img src={chair2} style={{height : 400}}/>
+                    <img src={chair2} style={{height : 400, width : '100'}}/>
                 </div>
                 <div className="leftb">
                   <p> INY VINTAGE CHAIR</p>

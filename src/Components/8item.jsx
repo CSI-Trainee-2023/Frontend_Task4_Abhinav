@@ -36,7 +36,7 @@ function Item() {
         <div className='searchbutton1'>VIEW ALL</div>
         <div className="hoveritemtext">
           <div className="productname">
-             Round Jute Placemat
+             Metal Wire Basket
           </div>
           <div className="stars">
             <img src={star}/>
@@ -52,7 +52,7 @@ function Item() {
         <div className='searchbutton1'>VIEW ALL</div>
         <div className="hoveritemtext">
           <div className="productname">
-             Round Jute Placemat
+             Small Glass Box
           </div>
           <div className="stars">
             <img src={star}/>
@@ -68,7 +68,7 @@ function Item() {
         <div className='searchbutton1'>VIEW ALL</div>
         <div className="hoveritemtext">
           <div className="productname">
-             Round Jute Placemat
+             4-pack Ceramic Plates
           </div>
           <div className="stars">
             <img src={star}/>
@@ -86,7 +86,7 @@ function Item() {
         <div className='searchbutton1'>VIEW ALL</div>
         <div className="hoveritemtext">
           <div className="productname">
-             Round Jute Placemat
+             Small Metal Basket
           </div>
           <div className="stars">
             <img src={star}/>
@@ -102,7 +102,7 @@ function Item() {
         <div className='searchbutton1'>VIEW ALL</div>
         <div className="hoveritemtext">
           <div className="productname">
-             Round Jute Placemat
+             Jute bag
           </div>
           <div className="stars">
             <img src={star}/>
@@ -118,7 +118,7 @@ function Item() {
         <div className='searchbutton1'>VIEW ALL</div>
         <div className="hoveritemtext">
           <div className="productname">
-             Round Jute Placemat
+             Linen Towel
           </div>
           <div className="stars">
             <img src={star}/>
@@ -134,7 +134,7 @@ function Item() {
         <div className='searchbutton1'>VIEW ALL</div>
         <div className="hoveritemtext">
           <div className="productname">
-             Round Jute Placemat
+             Large Glass Box
           </div>
           <div className="stars">
             <img src={star}/>
