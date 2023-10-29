@@ -9,7 +9,7 @@ function Info1() {
          <div className="Info1">
             <div className="part1a">
                 <div className="lefta">
-                    <img src={stool} style={{height : 400, width : 390}}/>
+                    <img src={stool} style={{height : '25rem', width : '24.063rem'}}/>
                 </div>
                 <div className="leftb">
                   <p> INY VINTAGE</p>
@@ -18,11 +18,11 @@ function Info1() {
             </div>
             <div className="part2a">
                 <div className="righta">
-                      <img src={pot} style={{height : 400}}/>
+                      <img src={pot} style={{height : '25rem'}}/>
                 </div>
                 <div className="rightb">
                     <p>LARGE TERRACOTA VASE</p>
-                    <button className='searchbutton'>View Details</button>
+                   <Link to="/detailvase"><button className='searchbutton'>View Details</button></Link>
                 </div>
             </div>
          </div>

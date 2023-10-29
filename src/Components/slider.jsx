@@ -5,6 +5,7 @@ import { Slide,Fade } from 'react-slideshow-image'
 import minicouch from '../assets/minicouch.png'
 import table from '../assets/Table.png'
 import chair from '../assets/image2.png'
+import { Link } from 'react-router-dom'
 
 const slides = [
     <div className="chair-content" key={1}>
@@ -19,7 +20,7 @@ const slides = [
         <p className='saletext'>SALE 50% OFF<br></br>MODERN FURNITURE</p>
        </div>
        <div className="chairbutton">
-        <button className='searchbutton'>VIEW NOW</button>
+       <Link to="/detailchair"> <button className='searchbutton'>VIEW NOW</button></Link>
        </div>
       </div>
     </div>,
@@ -33,7 +34,7 @@ const slides = [
         <p className='saletext'>SALE 50% OFF<br></br>MODERN FURNITURE</p>
        </div>
        <div className="chairbutton">
-        <button className='searchbutton'>VIEW NOW</button>
+       <Link to="/detailchair"> <button className='searchbutton'>VIEW NOW</button></Link>
        </div>
       </div>
       
@@ -48,7 +49,7 @@ const slides = [
         <p className='saletext'>SALE 50% OFF<br></br>MODERN FURNITURE</p>
        </div>
        <div className="chairbutton">
-        <button className='searchbutton'>VIEW NOW</button>
+       <Link to="/detailchair"> <button className='searchbutton'>VIEW NOW</button></Link>
        </div>
       </div>
        </div>, 

@@ -5,10 +5,8 @@ function Search(){
     return(
         <div className="search">
             <div className="searchbar">
-                  <div className="searchtext">
-                      <img src={search}/>
-                      <input type='text' id='inputsearch'/>
-                 </div>
+                 <img src={search} style={{height : '1.5rem'}}/>
+                  <input type='text' id='inputsearch' />
             </div>
             <div className="searchkey">
                 <button className='searchbutton'>Search</button>

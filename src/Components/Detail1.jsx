@@ -18,15 +18,15 @@ function Detail1() {
         <div className="detailimage">
             <div className="upperimage">
            <div className="image1">
-           <img src={stool} style={{width : 300 , height : 300}}/>
+           <img src={stool} style={{width : '12rem' , height : '15rem'}}/>
            </div>
            <div className="image2">
-           <img src={stool3} style={{width : 300 , height : 300}}/>
+           <img src={stool3} style={{width : '12rem' , height : '15rem'}}/>
            </div>
            
            </div>
            <div className="lowerimage">
-            <img src={stool4} style={{width : 600 , height : 600}}/>
+            <img src={stool4} style={{width : '24rem' , height : '22rem'}}/>
            </div>
            </div>
            <div className="detailtext">

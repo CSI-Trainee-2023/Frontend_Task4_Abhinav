@@ -3,11 +3,12 @@ import '../index.css'
 import logoimage from '../assets/logo.png';
 import profileimg from '../assets/profileicon.jpg'
 import addtocart from '../assets/addtocart.png'
+import { Link } from 'react-router-dom';
 function Logo(){
     return(
        <div className="upperheader">
             <div className="logoimage">
-                <img src={logoimage} style={{ width: 150, height: 50 }}/>
+            <Link to="/"><img src={logoimage} style={{ width: '9.375rem', height: '3.125rem' }}/></Link>
             </div>
             <div className="rightupper">
            <div className="profileicon">

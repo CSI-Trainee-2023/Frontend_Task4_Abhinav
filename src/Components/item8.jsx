@@ -9,14 +9,15 @@ import jutebag from '../assets/jute bag/mainjutebag.webp'
 import linentowel from '../assets/linentowel/maintowel.jpg'
 import largeglassbox from '../assets/largeglassbox/largeglassmain.jpg'
 import star from '../assets/stars.png'
+import { Link } from 'react-router-dom'
 function Item() {
   return (
     <div className="item8">
       <div className='upper4'>
       <div className="image-container">
-        <img src={mat} className="image" style={{height:300, width:300}}/>
+        <img src={mat} className="image" style={{height:'18.75rem', width:'18.75rem'}}/>
         <div className="hover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className='searchbutton1'>VIEW ALL</div>
+        <Link to="/detailchair"><div className='searchbutton1'>VIEW ALL</div></Link>
         <div className="hoveritemtext">
           <div className="productname">
              Round Jute Placemat
@@ -30,9 +31,9 @@ function Item() {
         </div>
       </div>
       <div className="image-container">
-        <img src={basket} className="image" style={{height:300, width:300}}/>
+        <img src={basket} className="image" style={{height:'18.75rem', width:'18.75rem'}}/>
         <div className="hover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className='searchbutton1'>VIEW ALL</div>
+        <Link to="/detailchair"><div className='searchbutton1'>VIEW ALL</div></Link>
         <div className="hoveritemtext">
           <div className="productname">
              Metal Wire Basket
@@ -46,9 +47,9 @@ function Item() {
         </div>
       </div>
       <div className="image-container">
-        <img src={glassbox} className="image" style={{height:300, width:300}}/>
+        <img src={glassbox} className="image" style={{height:'18.75rem', width:'18.75rem'}}/>
         <div className="hover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className='searchbutton1'>VIEW ALL</div>
+        <Link to="/detailchair"><div className='searchbutton1'>VIEW ALL</div></Link>
         <div className="hoveritemtext">
           <div className="productname">
              Small Glass Box
@@ -62,9 +63,9 @@ function Item() {
         </div>
       </div>
       <div className="image-container">
-      <img src={plate} className="image" style={{height:300, width:300}}/>
+      <img src={plate} className="image" style={{height:'18.75rem', width:'18.75rem'}}/>
         <div className="hover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className='searchbutton1'>VIEW ALL</div>
+        <Link to="/detailchair"> <div className='searchbutton1'>VIEW ALL</div></Link>
         <div className="hoveritemtext">
           <div className="productname">
              4-pack Ceramic Plates
@@ -80,9 +81,9 @@ function Item() {
       </div>
       <div className="lower4">
       <div className="image-container">
-      <img src={metalbasket} className="image" style={{height:300, width:300}}/>
+      <img src={metalbasket} className="image" style={{height:'18.75rem', width:'18.75rem'}}/>
         <div className="hover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className='searchbutton1'>VIEW ALL</div>
+        <Link to="/detailchair"> <div className='searchbutton1'>VIEW ALL</div></Link>
         <div className="hoveritemtext">
           <div className="productname">
              Small Metal Basket
@@ -96,7 +97,7 @@ function Item() {
         </div>
       </div>
       <div className="image-container">
-      <img src={jutebag} className="image" style={{height:300, width:300}}/>
+      <img src={jutebag} className="image"style={{height:'18.75rem', width:'18.75rem'}}/>
         <div className="hover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         <div className='searchbutton1'>VIEW ALL</div>
         <div className="hoveritemtext">
@@ -112,9 +113,9 @@ function Item() {
         </div>
       </div>
       <div className="image-container">
-      <img src={linentowel} className="image" style={{height:300, width:300}}/>
+      <img src={linentowel} className="image" style={{height:'18.75rem', width:'18.75rem'}}/>
         <div className="hover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className='searchbutton1'>VIEW ALL</div>
+        <Link to="/detailchair"><div className='searchbutton1'>VIEW ALL</div></Link>
         <div className="hoveritemtext">
           <div className="productname">
              Linen Towel
@@ -128,9 +129,9 @@ function Item() {
         </div>
       </div>
       <div className="image-container">
-      <img src={largeglassbox} className="image" style={{height:300, width:300}}/>
+      <img src={largeglassbox} className="image" style={{height:'18.75rem', width:'18.75rem'}}/>
         <div className="hover-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-        <div className='searchbutton1'>VIEW ALL</div>
+        <Link to="/detailchair"> <div className='searchbutton1'>VIEW ALL</div></Link>
         <div className="hoveritemtext">
           <div className="productname">
              Large Glass
