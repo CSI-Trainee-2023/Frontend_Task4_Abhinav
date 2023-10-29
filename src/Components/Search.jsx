@@ -6,7 +6,7 @@ function Search(){
         <div className="search">
             <div className="searchbar">
                   <div className="searchtext">
-                     <img src={search}/>
+                      <img src={search}/>
                       <input type='text' id='inputsearch'/>
                  </div>
             </div>

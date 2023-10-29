@@ -1,6 +1,5 @@
 import React from 'react'
 import '../index.css'
-import Hover from 'hover'
 import mat from '../assets/mainmat.jpg'
 import basket from '../assets/mainbasket.webp'
 import glassbox from '../assets/mainglassbox.webp'
@@ -134,7 +133,7 @@ function Item() {
         <div className='searchbutton1'>VIEW ALL</div>
         <div className="hoveritemtext">
           <div className="productname">
-             Large Glass Box
+             Large Glass
           </div>
           <div className="stars">
             <img src={star}/>
