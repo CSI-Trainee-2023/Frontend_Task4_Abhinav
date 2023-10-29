@@ -14,10 +14,10 @@ function Detail2() {
     <div className="detail">
             <div className="upperimage">
            <div className="image1">
-           <img src={vase1} style={{width : '22rem'  , height : '56.25rem'}}/>
+           <img src={vase1} style={{width : '22rem'  , height : '45.25rem'}}/>
            </div>
            <div className="image2">
-           <img src={vase2} style={{width : '22rem' , height : '56.25rem'}}/>
+           <img src={vase2} style={{width : '22rem' , height : '45.25rem'}}/>
            </div>
            </div>
            <div className="detailtext">

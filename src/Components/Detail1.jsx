@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './detail.css'
 import Header from './Header'
 import Logo from './logo'
@@ -7,7 +7,8 @@ import Email from './emailus'
 import stool from '../assets/stoolhm2.jpg'
 import stool3 from '../assets/stoolhm3.webp'
 import stool4 from '../assets/stoolhm4.webp'
-function Detail1() {
+function Detail1(props) {
+
   return (
     <>
     <Logo/>
