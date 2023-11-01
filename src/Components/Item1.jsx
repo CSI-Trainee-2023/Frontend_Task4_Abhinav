@@ -9,8 +9,6 @@ import jutebag from '../assets/jute bag/mainjutebag.webp'
 import linentowel from '../assets/linentowel/maintowel.jpg'
 import largeglassbox from '../assets/largeglassbox/largeglassmain.jpg'
 import linentowelf from '../assets/linenfinal.png'
-import star from '../assets/stars.png'
-import { Link } from 'react-router-dom'
 import Itemfunct from './itemfunct.jsx'
 
 function Item(props){
