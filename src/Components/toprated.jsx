@@ -15,20 +15,22 @@ function Toprating() {
     return(
         <div className="toprated">
             <div className="ratedtext1">Top Rated</div>
+            <div className="ratedcontainer">
              <div className="ratedobject">
-                <Topratedfunc img={rated1} text="Tray With Foot"/>
+                <Topratedfunc img={rated1} text="Tray With  Foot"/>
                 <Topratedfunc img={rated2} text="Twill Seat Cusion"/>
                 <Topratedfunc img={rated3} text="Fluted Beverage Glass"/>
              </div>
-             <div className="ratedobject">
+             <div className="ratedobject1">
                 <Topratedfunc img={rated4} text="Ceramic Egg Cup"/>
                 <Topratedfunc img={rated5} text="4-pack Ceramic cups"/>
                 <Topratedfunc img={rated6} text="2-pack Linen Napkins "/>
              </div>
-             <div className="ratedobject">
+             <div className="ratedobject2">
                 <Topratedfunc img={rated7} text="Glazed Stoneware Plate"/>
                 <Topratedfunc img={rated8} text="Small Bamboo Box"/>
                 <Topratedfunc img={rated9} text="Metal Cutlery Basket"/>
+             </div>
              </div>
         </div>
     )

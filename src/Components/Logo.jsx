@@ -14,9 +14,10 @@ function Logo(){
            <div className="profileicon">
                  <img src={profileimg} style={{ width: 50, height: 50 }} />
            </div>
-           <div className="addtocart">
+           <Link to="/cart"><div className="addtocart">
                 <img src={addtocart}/>
            </div>
+           </Link>
            </div>
            </div>
     )

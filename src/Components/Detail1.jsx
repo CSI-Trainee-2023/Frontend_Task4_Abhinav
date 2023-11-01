@@ -1,16 +1,18 @@
-import React,{useEffect} from 'react'
+import React,{useState} from 'react'
 import './detail.css'
 import Header from './Header'
 import Logo from './logo'
 import Footer from './footer'
 import Email from './emailus'
-import stool from '../assets/stoolhm2.jpg'
-import stool3 from '../assets/stoolhm3.webp'
-import stool4 from '../assets/stoolhm4.webp'
+import { Link } from 'react-router-dom'
 import {nowData} from './itemfunct.jsx'
-
+export const Items =[];
 function Detail1(props) {
-
+  const [items, setCart] = useState([]);
+   const addToCart = () => {
+  setCart([...items, nowData]);
+  console.log(items);
+      };
   return (
     <>
     <Logo/>
@@ -36,7 +38,7 @@ function Detail1(props) {
              <div className='detailname'>{nowData.text}</div>
              <div className='detailprice'>$39.99</div>
              <div className='detailp'>Best Product</div>
-              <button className='searchbutton'>ADD TO CART</button>
+             <Link to="/cart"><button className='searchbutton' onClick={addToCart}>ADD TO CART</button></Link>
             </div> 
     </div>
     </div>

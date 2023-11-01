@@ -2,16 +2,17 @@ import React from "react";
 import '../index.css'
 import star from '../assets/stars.png'
 import { Link } from "react-router-dom";
+import { useState } from "react";
 export let nowData= {};
 function Itemfunct(props) {
    const productDetail=()=>{
-      nowData= props;
+      nowData=props;
   }
    return(
       <div className="image-container">
         <img src={props.img}  className="image" style={{height : 300 , width : 300}} />
        
-        <div>{props.text}</div>
+        <div className="item-text">{props.text}</div>
         <div className="starimage"><img src={star}/></div>
         <div className='ratedprice'>30$</div>
         <div className="hovercontent">
