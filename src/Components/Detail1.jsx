@@ -6,8 +6,14 @@ import Footer from './Footer1'
 import Email from './Email1'
 import { Link } from 'react-router-dom'
 import {nowData} from './itemfunct.jsx'
-export const Items =[];
+export const list =[];
 function Detail1(props) {
+  // const[Items , setCart] = useState([]);
+  const addToCart = () => {
+    console.log(nowData)
+    list.push(nowData)
+    console.log(list)
+  }
   return (
     <>
     <Logo/>
@@ -33,7 +39,7 @@ function Detail1(props) {
              <div className='detailname'>{nowData.text}</div>
              <div className='detailprice'>$39.99</div>
              <div className='detailp'>Best Product</div>
-             <Link to="/cart"><button className='searchbutton'>ADD TO CART</button></Link>
+             <Link to="/cart"><button className='searchbutton' onClick={addToCart}>ADD TO CART</button></Link>
             </div> 
     </div>
     </div>

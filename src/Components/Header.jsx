@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className='navbar'>
         <ul className='navbar-menu'>
-            <Link to='/'><li>Home</li></Link>
+            <li><Link to='/'><button className='homebutton'>Home</button></Link></li>
             <li>Store</li>
             <li>Accessories</li>
             <li>Brand</li>
