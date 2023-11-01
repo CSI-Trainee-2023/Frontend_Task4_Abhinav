@@ -10,7 +10,6 @@ import rated6 from '../assets/Rectangle 31.png'
 import rated7 from '../assets/Rectangle 32.png'
 import rated8 from '../assets/Rectangle 33.png'
 import rated9 from '../assets/Rectangle 34.png'
-import starsr from '../assets/stars.png'
 function Toprating() {
     return(
         <div className="toprated">
