@@ -1,11 +1,9 @@
 import React from 'react'
 import './detail.css'
 import Header from './Header'
-import Logo from './logo'
-import Footer from './footer'
-import Email from './emailus'
-import vase1 from '../assets/vasehm.jpeg'
-import vase2 from '../assets/vasehm2.webp'
+import Logo from './Logo'
+import Footer from './Footer1'
+import Email from './Email1'
 import { nowData1 } from './infofunct'
 function Detail2() {
   return (

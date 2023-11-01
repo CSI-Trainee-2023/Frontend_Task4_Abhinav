@@ -1,18 +1,13 @@
 import React,{useState} from 'react'
 import './detail.css'
 import Header from './Header'
-import Logo from './logo'
-import Footer from './footer'
-import Email from './emailus'
+import Logo from './Logo'
+import Footer from './Footer1'
+import Email from './Email1'
 import { Link } from 'react-router-dom'
 import {nowData} from './itemfunct.jsx'
 export const Items =[];
 function Detail1(props) {
-  const [items, setCart] = useState([]);
-   const addToCart = () => {
-  setCart([...items, nowData]);
-  console.log(items);
-      };
   return (
     <>
     <Logo/>
@@ -38,7 +33,7 @@ function Detail1(props) {
              <div className='detailname'>{nowData.text}</div>
              <div className='detailprice'>$39.99</div>
              <div className='detailp'>Best Product</div>
-             <Link to="/cart"><button className='searchbutton' onClick={addToCart}>ADD TO CART</button></Link>
+             <Link to="/cart"><button className='searchbutton'>ADD TO CART</button></Link>
             </div> 
     </div>
     </div>

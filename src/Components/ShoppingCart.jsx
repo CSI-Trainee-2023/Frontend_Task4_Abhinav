@@ -1,9 +1,9 @@
 import React,{useState} from "react";
 import '../index.css'
 import Header from './Header'
-import Logo from './logo'
-import Footer from './footer'
-import Email from './emailus'
+import Logo from './Logo'
+import Footer from './Footer1'
+import Email from './Email1'
 import Cartheader from "./cartheader";
 import {nowData} from './itemfunct.jsx'
 function Cart() {

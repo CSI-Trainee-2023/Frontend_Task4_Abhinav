@@ -2,7 +2,6 @@ import React from "react";
 import '../index.css'
 import star from '../assets/stars.png'
 import { Link } from "react-router-dom";
-import { useState } from "react";
 export let nowData= {};
 function Itemfunct(props) {
    const productDetail=()=>{

@@ -1,6 +1,5 @@
 import React from 'react'
 import '../index.css'
-import bedsheet from '../assets/bedsheet.png'
 import bedsheet1 from '../assets/bedsheetfinal.png'
 
 function FullSize() {
