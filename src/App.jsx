@@ -1,16 +1,15 @@
 import React from 'react';
 import Header from './Components/Header'
-import Logo from './Components/logo'
+import Logo from './Components/Logo.jsx'
 import Search from './Components/Search'
-import Shipping from './Components/shipping';
-import Slider from './Components/slider'
+import Shipping from './Components/Shipping';
+import Slider from './Components/Slider'
 import Info1 from './Components/Info1'
-import Item from './Components/item8'
-import Footer from './Components/footer'
-import FullSize from './Components/fullsize'
+import Item from './Components/Item8'
+import Footer from './Components/Footer'
+import FullSize from './Components/Fullsize'
 import Toprating from './Components/toprated';
 import Email from './Components/emailus';
-import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
