@@ -9,7 +9,7 @@ function Infofunct(props){
     return(
         <div className="part1a">
                 <div className="lefta">
-                    <img src={props.img} style={{height : '25rem', width : '24.063rem'}}/>
+                    <img src={props.img} style={{height : '70vh'}} className="leftb"/>
                 </div>
                 <div className="leftb">
                   <p>{props.text}</p>

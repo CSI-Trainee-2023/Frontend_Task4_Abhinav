@@ -9,7 +9,7 @@ function Itemfunct(props) {
   }
    return(
       <div className="image-container">
-        <img src={props.img}  className="image" style={{height : 300 , width : 300}} />
+        <img src={props.img}  className="image" style={{height : '17rem' , width : '17rem'}} />
        
         <div className="item-text">{props.text}</div>
         <div className="starimage"><img src={star}/></div>

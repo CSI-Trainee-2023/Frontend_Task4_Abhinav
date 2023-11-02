@@ -6,7 +6,7 @@ function Email(){
         <div className="emailus">
             <div className="emailtext">
               <div className="signuptext">
-                SING UP FOR OUR NEWSLETTER
+                SIGN UP FOR OUR NEWSLETTER
               </div>
               <div className="subsribetext">
                 Subscribe for the latest deals and promotions

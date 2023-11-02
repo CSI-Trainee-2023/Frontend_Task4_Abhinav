@@ -14,16 +14,24 @@ function Item(props){
   return (
       <div className="item8">
         <div className="upper4">
+           <div className="upper2">
            <div><Itemfunct img = {mat} text ="Round Jute Placemat"/></div>
            <div><Itemfunct img = {basket} text ="Metal Wire Basket"/></div>
+           </div>
+           <div className="upper2">
            <div><Itemfunct img = {glassbox} text ="Small Glass Box"/></div>
            <div><Itemfunct img = {plate} text ="4-pack Ceramic Plates"/></div>
+           </div>
         </div>
         <div className="lower4">
+          <div className="upper2">
            <div><Itemfunct img = {metalbasket} text ="Small Metal Basket"/></div>
            <div><Itemfunct img = {jutebag} text ="Jute bag"/></div>
+           </div>
+           <div className="upper2">
            <div><Itemfunct img = {linentowelf} text ="Linen Towel"/></div>
            <div><Itemfunct img = {largeglassbox} text ="Large Glass"/></div>
+           </div>
         </div>
       </div>
     );

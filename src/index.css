@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: ;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
@@ -96,7 +97,6 @@ body{
 }
 #inputsearch:focus{
     outline: none;
-    
 }
 .ship{
     display: flex;
@@ -156,43 +156,7 @@ body{
     background-color: rgba(128, 128, 128, 0.232);
     color: #4C8787;
 }
-.Info1{
- display: flex;
- justify-content: space-evenly;
- flex-wrap: wrap;
- margin-top: 20px;
-}
-.part1a ,.part2a {
-    display: flex;
-    flex-wrap: wrap;
-}
-.leftb{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-font-weight: bold;
-font-size: 25px;
-}
-.rightb{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 25px;
-}
-.part2a,.righta,.rightb{
-    margin-top: 2px;
-}
 .withhover{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.upper8 , .lower8{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -252,25 +216,6 @@ font-size: 25px;
     flex-wrap: wrap;
     gap: 1.5rem;
   }
-  /* .image-container:hover .searchbutton1{
-    opacity: 1; /* Display text on hover 
-  }
-  .hover-text {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.5); 
-    color: black;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 10px;
-    border-radius: 5px;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-*/
   .searchbutton1{
     background-color: #4C8787;
     border: none;
@@ -294,6 +239,12 @@ font-size: 25px;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+  .upper2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2.6rem;
+  }
   .item8{
     margin-top: 1.5rem;
   }
@@ -313,6 +264,18 @@ font-size: 25px;
     justify-content: center;
     flex-direction: column
     ;
+}
+.ratedprice {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.ratedobject , .ratedobject1 , .ratedobject2
+{
+margin: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
 }
 /* .ratedobject{
     display: flex;
@@ -409,7 +372,7 @@ font-size: 25px;
     margin: 50px 0px 50px 0px;
 }
 .upper4 , .lower4{
-    margin: 50px;
+    margin: 25x;
 }
 .item-text {
  display: flex;
@@ -417,20 +380,67 @@ font-size: 25px;
  font-weight: 600;
  font-size: 1.3rem;
 }
-.ratedprice {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
+.emailus {
+    width: 100%;
 }
-.ratedobject , .ratedobject1 , .ratedobject2
-{
-margin: 50px;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-}
+
 @media screen and (max-width : 450px) {
     .navbar{
         display: none;
     }
+}
+
+@media screen and  (max-width :920px){
+    .toprated{
+        justify-content: center;
+        align-items: center;
+       }
+       .ratedobject , .ratedobject1 , .ratedobject2{
+        flex-direction: column;
+       }
+      
+}
+@media screen and (max-width :630px) {
+         .upper4 , .lower4{
+             justify-content: center;
+             align-items: center;
+         }
+         .upper2{
+            flex-direction: column;
+            margin-left: 20px;
+         }
+         .item8
+}
+@media  screen and (max-width : 365px) {
+    .bedsheet {
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width : 440px) {
+    .Info1,{
+        justify-content: center;
+        align-items: center;
+    }
+    .leftb,.lefta {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.Info1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.part1a 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.leftb{
+    font-weight: 600;
+    font-size: 25px;
 }

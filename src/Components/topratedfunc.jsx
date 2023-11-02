@@ -6,7 +6,7 @@ function Topratedfunc (props) {
     return(
         <div className="toprated">
                  <div className="ratingimage">
-                 <img src={props.img} style={{width : 250 , height : 250}}/>
+                 <img src={props.img} style={{width : '15.5rem' , height : '15.5rem'}}/>
                  </div>
                 <div className="ratedtext">
                 <div className="ratedname">{props.text}</div>
