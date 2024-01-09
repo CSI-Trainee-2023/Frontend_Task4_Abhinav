@@ -1,14 +1,13 @@
 import React,{useState} from 'react'
-import './detail.css'
-import Header from './Header'
-import Logo from './Logo'
-import Footer from './Footer1'
-import Email from './Email1'
+import './Components/detail.css'
+import Header from './Components/Header.jsx'
+import Logo from './Components/Logo.jsx'
+import Footer from './Components/Footer1.jsx'
+import Email from './Components/Email1.jsx'
 import { Link } from 'react-router-dom'
-import {nowData} from './itemfunct.jsx'
+import {nowData} from './Components/itemfunct.jsx'
 export const list =[];
 function Detail1(props) {
-  // const[Items , setCart] = useState([]);
   const addToCart = () => {
     console.log(nowData)
     list.push(nowData)

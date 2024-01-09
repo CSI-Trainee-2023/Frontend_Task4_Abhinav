@@ -6,7 +6,7 @@ import Footer from './Footer1'
 import Email from './Email1'
 import Cartheader from "./cartheader";
 import {nowData} from './itemfunct.jsx'
-import { list } from "./Detail1";
+import { list } from "../Detail1";
 function Cart() {
     return (
          <>

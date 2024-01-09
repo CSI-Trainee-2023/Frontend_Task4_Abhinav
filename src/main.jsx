@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Detail1 from './Components/Detail1.jsx'
+import Detail1 from './Detail1.jsx'
 import Detail2 from './Components/detail2.jsx'
 import Cart from './Components/ShoppingCart.jsx'
 import './index.css'

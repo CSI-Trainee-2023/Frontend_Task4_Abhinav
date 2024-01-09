@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 const slides = [
     <div className="chair-content" key={1}>
         <div>
-      <img src={chair} style={{ width: 600, height: 400 }} />
+      <img src={chair} style={{height : '25rem'}} />
       </div>
       <div className='chair-content2'>
        <div className="hotdeals">
@@ -25,7 +25,7 @@ const slides = [
       </div>
     </div>,
     <div className="table-content" key={2}>
-        <div><img src={table} style={{ width: 450, height: 400 }}/></div>
+        <div><img src={table} style={{ height : '25rem' }}/></div>
         <div className='chair-content2'>
        <div className="hotdeals">
         <p>Hot Deals This Week</p>
@@ -40,7 +40,7 @@ const slides = [
       
     </div>,
        <div className="minicouch-content" key={3}>
-       <div><img src={minicouch} style={{ width: 600, height: 400 }}/></div>
+       <div><img src={minicouch} style={{ height : '25rem' }}/></div>
        <div className='chair-content2'>
        <div className="hotdeals">
         <p>Hot Deals This Week</p>

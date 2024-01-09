@@ -8,6 +8,6 @@ function Cartheader() {
             <div className="Product2">Name</div>
             <div className="Product3">Price</div>
         </div>
-          )
+        )
 }
 export default Cartheader
